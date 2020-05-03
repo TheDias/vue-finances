@@ -85,7 +85,7 @@ services:
       - traefik.enable=true
       - traefik.backend=postgres
     volumes:
-      - postgres:/var/lib/postgresql/data
+      - postgres:/var/lib/postgesql/data
 
 volumes:
   postgres:
