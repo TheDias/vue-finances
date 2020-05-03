@@ -38,7 +38,7 @@ services:
 
   prisma:
     container_name: prisma
-    image: prismagraphql/prisma:1.28
+    image: prismagraphql/prisma:1.27
     restart: always
     depends_on:
       - postgres
